@@ -8,7 +8,7 @@ package main
 
 import (
 	"fmt"
-	"golang-leetcode/leetcode/lengthoflongestsubstring"
+	"golang-leetcode/leetcode/combinations"
 )
 
 func main() {
@@ -20,8 +20,13 @@ func main() {
 	//
 	//fmt.Println("ret: \n", ret)
 
-	s := "abba"
+	//s := "abba"
+	//count := lengthoflongestsubstring.LengthOfLongestSubstring(s);
+	//fmt.Println(count)
 
-	count := lengthoflongestsubstring.LengthOfLongestSubstring(s);
-	fmt.Println(count)
+	var ret [][]int
+
+	ret = combinations.Combine(5, 3)
+
+	fmt.Println(ret)
 }
