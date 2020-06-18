@@ -4,7 +4,13 @@
 @File : addtwonumber
 @Software: GoLand
 */
-package addtwonumber
+package main
+
+import "log"
+
+func main(){
+	log.Println("add two number")
+}
 
 type ListNode struct {
 	Val  int
