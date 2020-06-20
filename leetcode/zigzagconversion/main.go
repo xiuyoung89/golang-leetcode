@@ -18,7 +18,7 @@ func main() {
 
 func convert(s string, numRows int) string {
 
-	if len(s) < numRows || numRows ==1{
+	if len(s) < numRows || numRows ==1	{
 		return s
 	}
 

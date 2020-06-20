@@ -4,7 +4,13 @@
 @File : twosum
 @Software: GoLand
 */
-package twosum
+package main
+
+import "log"
+
+func main() {
+	log.Println("two sum")
+}
 
 
 // 耗时 40ms
